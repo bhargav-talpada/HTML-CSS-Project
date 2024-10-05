@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanco's Ice-Cream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    input::placeholder{
+        color: white;
+    }
+    textarea::placeholder{
+        color: white;
+    }
+
+    .img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 200px; 
+        height: 131px; 
+    }
+
+    .img div {
+        background-image: url('https://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-footer-png.png'); 
+        background-size: 300%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img div:nth-child(1) {
+        background-position: top left;
+    }
+
+    .img div:nth-child(2) {
+        background-position: top center;
+    }
+
+    .img div:nth-child(3) {
+        background-position: top right;
+    }
+
+    .img div:nth-child(4) {
+        background-position: bottom left;
+    }
+
+    .img div:nth-child(5) {
+        background-position: bottom center;
+    }
+
+    .img div:nth-child(6) {
+        background-position: bottom right;
+    }
+</style>
+<body>
+    <div style="width: 100%;">
+        <div style="position: fixed; width: 100%; background-color: #00000017; height: 70px; display: flex; justify-content: space-around; align-items: center; padding: 10px 25px;">
+            <div style="display: flex; width: 60%; justify-content: space-around; align-items: center; padding: 10px 20px;">
+                <a href="" style="text-decoration: none; color: white; font-size: 20px;">Home</a>
+                <a href="" style="text-decoration: none; color: white; font-size: 20px;">About Us</a>
+                <a href="" style="text-decoration: none; color: white; font-size: 20px;">Franchisee</a>
+                <select style="border: navajowhite; background-color: transparent; color: white; font-weight: 300; font-size: 20px;">
+                    <option>Flavours</option>
+                </select>
+                <a href="" style="text-decoration: none; color: white; font-size: 20px;">Gallary</a>
+                <a href="" style="text-decoration: none; color: white; font-size: 20px;">Stores</a>
+                <a href="" style="text-decoration: none; color: white; font-size: 20px;">Find Us</a>
+                <a href="" style="text-decoration: none; color: white; font-size: 20px;">Order Online</a>
+            </div>
+        </div>
+        <div style="width: 100%; height: 100%;">
+            <img style="width: 100%; height: 700px;" src="https://www.thancosnatural.com/wp-content/uploads/2017/12/Banner.jpg" alt="">
+        </div>
+        <div style="margin-top: 0; background: url('http://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-bg.jpg'); background-repeat: no-repeat; background-size: cover; height: 650px;  display: flex; justify-content: center; align-items: center;">
+            <div style=" display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="http://www.thancosnatural.com/wp-content/uploads/2017/12/quality-png.png" alt="">
+                <h1 style="color: #a50018; font-size: 20px; font-family: Satisfy; font-weight: 100; margin-top: 0;">Quality</h1>
+                <p style="color: white; font-size: 20px; font-family: Satisfy; width: 40%; line-height: 35px; margin-top: 0;">Our products are so fresh that it is just manufactured to serve you. As we always know that the people who are health conscious and are also more conscious about the store, so as our outlets are well designed with state of the art looks and maintained hygienically to make you feel more comfort and royal.</p>
+            </div>
+            <div style="margin-top: 100px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <img src="http://www.thancosnatural.com/wp-content/uploads/2017/12/quality-png.png" alt="">
+                <h1 style="color: #a50018; font-size: 20px; font-family: Satisfy; font-weight: 100; margin-top: 0;">Awards</h1>
+                <p style="color: white; font-size: 20px; font-family: Satisfy; width: 40%; line-height: 35px; margin-top: 0;">Thanco’s Naturals Ics Cream is the winner of Franchise Awards 2017. Judged by an independent panel of experts and supported by the Indian Franchise Association (IFA) & with Francorp India as Process advisors, Franchise Awards 2017 reward organizations that have shown outstanding business acumen, passion and achievement of franchise businesses across India. </p>
+                <img style="width: 100px;" src="http://www.thancosnatural.com/wp-content/uploads/2017/12/Award.png" alt="">
+            </div>
+        </div>
+        <div style="height: 150px;"></div>
+        <div style="width: 100%; height: 600px; background: url('http://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-Flav-bg.jpg'); background-repeat: no-repeat; background-size: cover; display: flex; justify-content: center; align-items: center;">
+            <div style="background: url('http://www.thancosnatural.com/wp-content/uploads/2017/12/Flavours.png'); background-repeat: no-repeat; background-size: contain; height: 510px; width: 380px; padding: 0 20px;">
+                <h3 style="position: relative; top: 100px; font-size: 25px; text-align: center; font-family: Satisfy; color: white;"> Flavours</h3>
+                <p style="width: 90%; position: relative; top: 130px; font-size: 20px; font-family: Satisfy; color: white;">The Ice Cream you eat is so fresh that it is just manufactured to serve you fresh. As we know the people who are health conscious are also more conscious about the store, so as our outlets are well designed with state of art looks and maintained hygienically to feel you more comfort and royal.</p>
+            </div>
+            <div style="background: url('http://www.thancosnatural.com/wp-content/uploads/2017/12/Stores.png'); background-repeat: no-repeat; background-size: contain; height: 510px; width: 380px; padding: 0 10px;">
+                <h3 style="position: relative; top: 100px; font-size: 25px; text-align: center; font-family: Satisfy; color: white;"> Stores</h3>
+                <p style="width: 90%; position: relative; top: 130px; left: 10px; font-size: 20px; font-family: Satisfy; color: white;">We are sure we will reach to 1000 stores within a short span. More over today we have become a big threat to many big proprietor Brands And the varieties of our product range have become big challenge to others.</p>
+            </div>
+            <div style="background: url('http://www.thancosnatural.com/wp-content/uploads/2017/12/Franchise.png'); background-repeat: no-repeat; background-size: contain; height: 510px; width: 380px; padding: 0 20px;">
+                <h3 style="position: relative; top: 100px; font-size: 25px; text-align: center; font-family: Satisfy; color: white;"> Franchisee</h3>
+                <p style="width: 90%; position: relative; top: 130px; left: 10px;  font-size: 20px; font-family: 'Satisfy', cursive; color: white;">The Ice Cream you eat is so fresh that it is just manufactured to serve you fresh. As we know the people who are health conscious are also more conscious about the store, so as our outlets are well designed with state of art looks and maintained hygienically to feel you more comfort and royal.</p>
+            </div>
+        </div>
+        <div style="background: url('http://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-1.jpg'); background-repeat: no-repeat; background-size: cover; height: 350px; display: flex; justify-content: center; align-items: center;">
+            <div style="height: 350px; width: 60%; display: flex; flex-direction: column; justify-content: space-around;">
+                <h2 style="font-family: 'Satisfy', cursive; color: white; font-weight: 100;">Suggest A Flavour Now</h2>
+                <input type="text" placeholder="Name" style="width: 95%; padding: 10px 20px; font-family: Satisfy; color: white; background-color: transparent; border: 1px solid white;">
+                <input type="email" placeholder="Email Address" style="width: 95%; padding: 10px 20px; font-family: Satisfy; color: white; background-color: transparent; border: 1px solid white;">
+                <textarea placeholder="Message" style="width: 95%; height: 100px; padding: 10px 20px; font-family: Satisfy; color: white; background-color: transparent; border: 1px solid white;"></textarea>
+                <button style="cursor: pointer; padding: 10px 20px; color: yellow; border: 1px solid yellow; background-color: transparent; width: 100px; font-size: 20px; font-family: Satisfy; margin-right: auto; transform: translateX(765px);">Submit</button>
+            </div>
+        </div>
+        <div style="width: 100%; height: 300px; background-color: #222; display: flex; justify-content: center; align-items: center; gap: 100px; padding-right: 50px;">
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 300px;">
+                <h3 style="color: #7cda24; font-family: 'Satisfy', cursive; font-size: 18px; transform: translateX(-80px); padding: 20px 0;">Contact Us</h3>
+                <p style="color: white; width: 242px; font-family: 'Satisfy', cursive; font-size: 20px; line-height: 30px;">Thanco Natural Foods Pvt. Ltd #1052/20,Mehta Industrial Estate, Gokul 1st Stage 2nd Phase, Triveni Road, Bangalore- 560054, Karnataka, India.</p>
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100px;">
+                <h4 style="color: white; font-family: 'Satisfy', cursive; font-size: 20px; padding: 20px 0;">Email: raghu.thane@gmail.com</h4>
+                <p style="color: white; font-family: 'Satisfy', cursive; font-size: 20px;">Ph / Fax: +91 80  23577175</p>
+                <p style="color: white; font-family: 'Satisfy', cursive; font-size: 20px;">Direct : +91 9916502035</p>
+            </div>
+            <div class="img">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="icon" style="background-color: #171616; width: 100%; height: 50px; display: flex; justify-content: space-around; align-items: center;">
+            <h3 style="color: #666; font-size: 20px;">Powered</h3>
+            <div style="display: flex; justify-content: center; align-items: center; gap: 30px; padding-right: 40px; ">
+                <i class="fa-brands fa-facebook-f" style="color: #edb059; font-size: 20px; cursor: pointer;"></i>
+                <i class="fa-brands fa-twitter" style="color: #edb059; font-size: 20px; cursor: pointer;"></i>
+                <i class="fa-brands fa-google-plus-g" style="color: #edb059; font-size: 20px; cursor: pointer;"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
